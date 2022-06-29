@@ -1,0 +1,21 @@
+<div class="draft-sharer-option">
+    <div class="draft-sharer-button">
+        <button id="draft-sharer-button" data-id="{{ entryId }}" data-draft-id="{{ draftId }}" data-csrf="{{ csrf }}" data-site-id="{{ siteId }}" type="button" class="btn">{{ 'Admin:DraftSharerButtonLabel' | t('draft-sharer') }}</button>
+    </div>
+</div>
+
+<div id="draft-sharer-modal" class="modal fitted hidden">
+    <div class="body">
+        <div class="field">
+            <div class="heading">
+                <label for="draft-sharer-link">{{ "Admin:CopySharerLinkLabel" | t('draft-sharer') }}</label>
+            </div>
+            <div class="input">
+                <div class="copytext">
+                    <input class="text" type="text" id="draft-sharer-link" size="50" value="todo">
+                    <button type="button" id="draft-sharer-link-btn" class="btn" data-icon="clipboard" title="{{ "Admin:CopyToClipboard" | t('draft-sharer') }}" aria-label="{{ "Admin:CopyToClipboard" | t('draft-sharer') }}"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

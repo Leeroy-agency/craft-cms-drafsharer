@@ -1,0 +1,28 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Draft sharer plugin for Craft CMS 3.x
+ *
+ * Draft sharer Settings.twig
+ *
+ * @author    Leeroy agency
+ * @copyright Copyright (c) 2022 Leeroy agency
+ * @link      https://github.com/Leeroy-agency
+ * @package   DraftSharer
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("leeroy\\draftsharer\\assetbundles\\draftsharer\\DraftSharerAsset") %}
+
+{% set label = 'Setting:TokenDurationLabel'|t('draft-sharer') %}
+{% set instructions = 'Setting:TokenDurationInstructions'|t('draft-sharer') %}
+{{ forms.textField({
+    label: label,
+    instructions: instructions,
+    id: 'tokenDuration',
+    name: 'tokenDuration',
+    value: settings['tokenDuration']})
+}}
