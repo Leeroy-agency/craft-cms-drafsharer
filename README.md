@@ -24,20 +24,21 @@ To install the plugin, follow these instructions.
 
 ## Draft sharer Overview
 
--Insert text here-
+When you create a draft, a button to generate a share link will appear to the right below the changes note box.
+
+![](resources/img/draft-sharer-button-preview.png)
 
 ## Configuring Draft sharer
 
--Insert text here-
+The sharing link will be usable for 24 hours, but you can change it in the plugin settings.
 
-## Using Draft sharer
-
--Insert text here-
+![](resources/img/draft-share-settings-preview.png)
 
 ## Draft sharer Roadmap
 
 Some things to do, and ideas for potential features:
 
-* Release it
+* Add a permission to access the "Share your draft" feature
+* Exclude list of sections by handle
 
 Brought to you by [Leeroy agency](https://github.com/Leeroy-agency)
