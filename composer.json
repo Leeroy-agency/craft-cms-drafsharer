@@ -11,8 +11,8 @@
         "draft sharer"
     ],
     "support": {
-        "docs": "https://github.com/Leeroy-agency/draftsharer/blob/master/README.md",
-        "issues": "https://github.com/Leeroy-agency/draftsharer/issues"
+        "docs": "https://github.com/Leeroy-agency/craft-cms-drafsharer/blob/main/README.md",
+        "issues": "https://github.com/Leeroy-agency/craft-cms-drafsharer/issues"
     },
     "license": "MIT",
     "authors": [
@@ -36,11 +36,11 @@
     },
     "extra": {
         "name": "Draft sharer",
-        "handle": "draft-sharer",
+        "handle": "draftsharer",
         "developer": "Leeroy agency",
         "developerUrl": "https://github.com/Leeroy-agency",
-        "documentationUrl": "https://github.com/Leeroy agency/draft-sharer/blob/master/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/Leeroy agency/draft-sharer/master/CHANGELOG.md",
+        "documentationUrl": "https://github.com/Leeroy-agency/craft-cms-drafsharer/blob/main/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/Leeroy-agency/craft-cms-drafsharer/main/CHANGELOG.md",
         "class": "leeroy\\draftsharer\\DraftSharer"
     },
     "config": {
