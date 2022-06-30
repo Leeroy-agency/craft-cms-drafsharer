@@ -42,5 +42,11 @@
         "documentationUrl": "https://github.com/Leeroy agency/draft-sharer/blob/master/README.md",
         "changelogUrl": "https://raw.githubusercontent.com/Leeroy agency/draft-sharer/master/CHANGELOG.md",
         "class": "leeroy\\draftsharer\\DraftSharer"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }

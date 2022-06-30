@@ -1,11 +1,11 @@
 # Set in accordance to your environment
 
 DB_DRIVER="mysql"
-DB_SERVER="localhost"
-DB_USER="root"
-DB_PASSWORD=""
-DB_DATABASE="craft-test"
+DB_SERVER="127.0.0.1"
+DB_USER="lamp"
+DB_PASSWORD="lamp"
+DB_DATABASE="lamp"
 DB_SCHEMA=""
-DB_TABLE_PREFIX="craft"
-DB_PORT="3306"
+DB_TABLE_PREFIX=""
+DB_PORT="3369"
 SECURITY_KEY="abcde12345"

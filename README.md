@@ -40,5 +40,6 @@ Some things to do, and ideas for potential features:
 
 * Add a permission to access the "Share your draft" feature
 * Exclude list of sections by handle
+* Make some unit test
 
 Brought to you by [Leeroy agency](https://github.com/Leeroy-agency)

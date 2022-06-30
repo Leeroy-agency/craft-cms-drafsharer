@@ -1,0 +1,9 @@
+name: draftsharer
+recipe: lamp
+config:
+  webroot: /
+services:
+  appserver:
+    type: php:7.4
+  database:
+    portforward: 3369

@@ -1,0 +1,12 @@
+.draft-sharer-option {
+    position: relative;
+}
+
+.draft-sharer-button {
+    position: absolute;
+    right: 0;
+}
+
+#draft-sharer-modal.hidden {
+    display: none;
+}
