@@ -7,3 +7,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.0 - 2022-06-01
 ### Added
 - Initial release
+
+## 1.0.2 - 2022-07-05
+### Fixed
+- Composer fixes
+
+## 1.0.3 - 2022-07-05
+### Fixed
+- Read Me fixes
+- Complete the changelog
