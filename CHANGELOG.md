@@ -20,3 +20,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.4 - 2022-07-05
 ### Fixed
 - Plugin handle fixed
+- Add language to composer for packagist

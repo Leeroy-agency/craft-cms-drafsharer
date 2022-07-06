@@ -2,7 +2,8 @@
     "name": "leeroy/craft-draft-sharer",
     "description": "Plugin to add a link in the CP to share an entry draft",
     "type": "craft-plugin",
-    "version": "1.0.3",
+    "language": "PHP",
+    "version": "1.0.4",
     "keywords": [
         "craft",
         "cms",
