@@ -17,7 +17,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Read Me fixes
 - Complete the changelog
 
-## 1.0.4 - 2022-07-05
+## 1.0.4 - 2022-07-06
 ### Fixed
 - Plugin handle fixed
 - Add language to composer for packagist
+- Version for Craft 3
+
+## 1.1.0 - 2022-07-06
+### New
+- Support for Craft 4 alpha

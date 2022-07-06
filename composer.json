@@ -3,7 +3,7 @@
     "description": "Plugin to add a link in the CP to share an entry draft",
     "type": "craft-plugin",
     "language": "PHP",
-    "version": "1.0.4",
+    "version": "1.0.4.1",
     "keywords": [
         "craft",
         "cms",
@@ -23,6 +23,7 @@
         }
     ],
     "require": {
+        "php": "8.0|",
         "craftcms/cms": "^4.0.0-alpha"
     },
     "require-dev": {
