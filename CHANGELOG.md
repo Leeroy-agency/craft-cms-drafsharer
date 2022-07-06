@@ -16,3 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Fixed
 - Read Me fixes
 - Complete the changelog
+
+## 1.0.4 - 2022-07-05
+### Fixed
+- Plugin handle fixed

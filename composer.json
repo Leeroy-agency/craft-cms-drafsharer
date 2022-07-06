@@ -36,7 +36,7 @@
     },
     "extra": {
         "name": "Draft sharer",
-        "handle": "draftsharer",
+        "handle": "draft-sharer",
         "developer": "Leeroy agency",
         "developerUrl": "https://github.com/Leeroy-agency",
         "documentationUrl": "https://github.com/Leeroy-agency/craft-cms-drafsharer/blob/main/README.md",
