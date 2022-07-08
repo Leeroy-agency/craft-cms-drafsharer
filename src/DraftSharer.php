@@ -10,6 +10,8 @@
 
 namespace leeroy\draftsharer;
 
+use craft\base\Element;
+use craft\events\DefineHtmlEvent;
 use craft\events\TemplateEvent;
 use craft\web\View;
 use leeroy\draftsharer\assetbundles\draftsharer\DraftSharerAsset;
@@ -132,19 +134,37 @@ class DraftSharer extends Plugin
         );
 
         // Add an action to the entry detail views
-        Craft::$app->view->hook('cp.entries.edit.details', function (array &$context) {
-            if ($context['isDraft']) {
-                return Craft::$app->view->renderTemplate(
-                    "draft-sharer/_partials/draft-share-action", [
+        if (substr(Craft::$app->getVersion(), 0, 1) === "3") {
+            // Add an action to the entry detail views
+            Craft::$app->view->hook('cp.entries.edit.details', function (array &$context) {
+                if ($context['isDraft']) {
+                    return Craft::$app->view->renderTemplate(
+                        "draft-sharer/_partials/draft-share-action", [
                         'entryId' => $context['entryId'],
                         'draftId' => $context['draftId'],
                         'siteId' => $context['site']->id,
+                        'craft4' => false,
                         'csrf' => Craft::$app->getRequest()->getCsrfToken()
-                ], Craft::$app->view::TEMPLATE_MODE_CP
-                );
-            }
-            return "";
-        });
+                    ], Craft::$app->view::TEMPLATE_MODE_CP
+                    );
+                }
+                return "";
+            });
+        } else {
+            Event::on(Element::class, Element::EVENT_DEFINE_SIDEBAR_HTML, function(DefineHtmlEvent $event) {
+                if ($event->sender->getIsDraft()) {
+                    $event->html .= Craft::$app->view->renderTemplate(
+                        "draft-sharer/_partials/draft-share-action", [
+                        'entryId' => $event->sender->canonicalId,
+                        'draftId' => $event->sender->draftId,
+                        'siteId' => $event->sender->siteId,
+                        'craft4' => true,
+                        'csrf' => Craft::$app->getRequest()->getCsrfToken()
+                    ], Craft::$app->view::TEMPLATE_MODE_CP
+                    );
+                }
+            });
+        }
 
 /**
  * Logging in Craft involves using one of the following methods:

@@ -1,4 +1,4 @@
-<div class="draft-sharer-option">
+<div class="draft-sharer-option {% if craft4 %}craft-4{% endif %}">
     <div class="draft-sharer-button">
         <button id="draft-sharer-button" data-id="{{ entryId }}" data-draft-id="{{ draftId }}" data-csrf="{{ csrf }}" data-site-id="{{ siteId }}" type="button" class="btn">{{ 'Admin:DraftSharerButtonLabel' | t('draft-sharer') }}</button>
     </div>

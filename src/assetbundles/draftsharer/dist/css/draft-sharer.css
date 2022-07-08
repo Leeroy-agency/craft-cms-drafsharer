@@ -10,3 +10,12 @@
 #draft-sharer-modal.hidden {
     display: none;
 }
+
+/* CRAFT 4 */
+.draft-sharer-option.craft-4 {
+    height: 40px;
+}
+
+.draft-sharer-option.craft-4 .draft-sharer-button {
+    right: -25px;
+}

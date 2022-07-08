@@ -30,3 +30,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.1.1 - 2022-07-08
 ### New
 - New try with support for Craft 4
+
+## 1.1.2 - 2022-07-08
+### New
+- Support 3 and 4
+- Fix support for Craft 4 with the event Element::EVENT_DEFINE_SIDEBAR_HTML
+- Draft sharer button display fixed
