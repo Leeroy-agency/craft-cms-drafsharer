@@ -32,7 +32,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - New try with support for Craft 4
 
 ## 1.1.2 - 2022-07-08
-### New
+### Fixed
 - Support 3 and 4
-- Fix support for Craft 4 with the event Element::EVENT_DEFINE_SIDEBAR_HTML
+- Fixed support for Craft 4 with the event Element::EVENT_DEFINE_SIDEBAR_HTML
 - Draft sharer button display fixed
+
+## 1.1.3 - 2022-07-08
+### Fixed
+- Support for Craft 3 change php dependency

@@ -2,7 +2,7 @@
     "name": "leeroy/craft-draft-sharer",
     "description": "Plugin to add a link in the CP to share an entry draft",
     "type": "craft-plugin",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "keywords": [
         "craft",
         "cms",
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.0",
         "craftcms/cms": "^3.0|^4.0"
     },
     "require-dev": {
