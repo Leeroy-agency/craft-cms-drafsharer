@@ -12,6 +12,8 @@
 /build/*
 /yarn-error.log
 
+cpresources
+
 # MISC FILES
 .cache
 .DS_Store

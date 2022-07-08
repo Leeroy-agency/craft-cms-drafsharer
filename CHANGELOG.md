@@ -26,3 +26,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.1.0 - 2022-07-06
 ### New
 - Support for Craft 4 alpha
+
+## 1.1.1 - 2022-07-08
+### New
+- New try with support for Craft 4

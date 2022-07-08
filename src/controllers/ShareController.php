@@ -54,7 +54,7 @@ class ShareController extends Controller
      *         The actions must be in 'kebab-case'
      * @access protected
      */
-    protected $allowAnonymous = ['preview-draft'];
+    protected array|int|bool $allowAnonymous = ['preview-draft'];
 
     // Public Methods
     // =========================================================================

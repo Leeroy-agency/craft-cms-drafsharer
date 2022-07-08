@@ -2,7 +2,7 @@
     "name": "leeroy/craft-draft-sharer",
     "description": "Plugin to add a link in the CP to share an entry draft",
     "type": "craft-plugin",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "keywords": [
         "craft",
         "cms",
@@ -22,13 +22,13 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.0.2",
         "craftcms/cms": "^4.0.0-alpha"
     },
     "require-dev": {
       "codeception/codeception": "^4.0",
       "vlucas/phpdotenv": "^3.0",
-        "craftcms/rector": "dev-main"
+      "craftcms/rector": "dev-main"
     },
     "autoload": {
         "psr-4": {

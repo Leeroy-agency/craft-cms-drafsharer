@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ecdf05cf8f9b438b40a4c60f49be44e",
+    "content-hash": "f8833456704729b81e0737f41bed6d26",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -678,16 +678,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.1.1",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "39349cb0699dd2bc96c2321269ced69252c985d2"
+                "reference": "dd2a2a3da127e5cda0d4d9f43c6c2852444dbfea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/39349cb0699dd2bc96c2321269ced69252c985d2",
-                "reference": "39349cb0699dd2bc96c2321269ced69252c985d2",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/dd2a2a3da127e5cda0d4d9f43c6c2852444dbfea",
+                "reference": "dd2a2a3da127e5cda0d4d9f43c6c2852444dbfea",
                 "shasum": ""
             },
             "require": {
@@ -792,7 +792,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2022-07-05T14:15:29+00:00"
+            "time": "2022-07-07T17:05:03+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -9076,7 +9076,9 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.0.2"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }
